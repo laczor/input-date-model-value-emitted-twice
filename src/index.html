@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div #app></div>
+
+    <h1>model-value-change emitted twice</h1>
+    <article>
+      <h2>Reproduction recipe</h2>
+      <ol>
+        <li>
+          <span>Modify the lion-date input below to be a valid date</span>
+        </li>
+        <li>
+          <span>Click outside the input</span>
+        </li>
+      </ol>
+      <p>The model-value-changed will be emitted twice</p>
+    </article>
+
+    <lion-date id="lionDate"></lion-date>
+
+</body>
+</html>
